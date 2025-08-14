@@ -39,30 +39,29 @@
             }
             
             .site-header {
-                position: relative;       /* Voor centering via absolute/img */
                 width: 100%;
-                height: 60px;            /* Pas hoogte aan naar wens */
-                text-align: center;      /* Centrerend effect voor inline-items */
-                margin-bottom: 20px;     /* Ruimte naar je content eronder */
+                height: 60px;
+                margin-bottom: 20px;
 
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
                 text-align: center;
             }
 
             .site-logo {
-                max-height: 40px;        /* Houd het klein/bescheiden */
+                max-height: 40px;
                 width: auto;
-                vertical-align: middle;  /* Voorkomt verschuiving tov baseline */
+                vertical-align: middle;
             }
         </style>
         <link rel="icon" type="image/png" href="images/favicon.png" />
         <title>tijanapatteri.nl</title>
     </head>
     <body>
-            <header>
-                <img src="images/TP_logo.svg" alt="TP logo" class="site-logo">
+            <header class="site-header">
+                <img src="TP_logo.svg" alt="TP Logo" class="site-logo" />
             </header>
 
             <div class="outer">
